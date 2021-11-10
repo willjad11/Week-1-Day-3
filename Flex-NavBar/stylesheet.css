@@ -1,0 +1,43 @@
+* {
+    font-family: "Roboto";
+    color: white;
+    margin: 0px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav {
+    vertical-align: top;
+    width: 1000px;
+    height: 30px;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: lightseagreen;
+    padding: 2px 8px 2px 8px;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+}
