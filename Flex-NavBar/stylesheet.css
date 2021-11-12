@@ -11,20 +11,32 @@
 .nav {
     vertical-align: top;
     height: 30px;
-    background-color: grey;
+    background-color: black;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-links {
+.nav-left {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
-li {
-    list-style-type: none;
+.nav-links {
+    display: flex;
+    font-size: 20px;
+}
+
+.nav-links a {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 40px;
+    margin-right: 20px;
 }
 
 .btn {
@@ -34,9 +46,4 @@ li {
     padding: 2px 8px 2px 8px;
     box-shadow: 2px 2px 2px black;
     margin-left: 5px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    padding: 10px;
 }
